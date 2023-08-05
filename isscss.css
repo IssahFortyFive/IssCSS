@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Montserrat, monospace;
+}
+
+/* Colors */
+.red {
+    color: red !important;
+}
+
+.orange {
+    color: orange !important;
+}
+
+.yellow {
+    color: yellow !important;
+}
+
+.green {
+    color: green !important;
+}
+
+.blue {
+    color: rgb(0, 115, 255) !important;
+}
+
+.purple {
+    color: purple !important;
+}
+
+.black {
+    color: black !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.gray {
+    color: gray !important;
+}
+
+/* Background Colors */
+
+.bg-red {
+    background: red !important;
+}
+
+.bg-orange {
+    background: orange !important;
+}
+
+.bg-yellow {
+    background: yellow !important;
+}
+
+.bg-green {
+    background: green !important;
+}
+
+.bg-blue {
+    background: rgb(0, 110, 255) !important;
+}
+
+.bg-purple {
+    background: purple !important;
+}
+
+.bg-black {
+    background: black !important;
+}
+
+.bg-white {
+    background: white !important;
+}
+
+.bg-gray {
+    background: gray !important;
+}
+
+/* Padding */
+.p-1 {
+    padding: 1px !important;
+}
+
+.p-2 {
+    padding: 2px !important;
+}
+
+.p-5 {
+    padding: 5px !important;
+}
+
+.p-10 {
+    padding: 10px !important;
+}
+
+.p-20 {
+    padding: 20px !important;
+}
+
+.p-50 {
+    padding: 50px !important;
+}
+
+.p-100 {
+    padding: 100px !important;
+}
+
+/* Margin */
+.m-1 {
+    margin: 1px !important;
+}
+
+.m-2 {
+    margin: 2px !important;
+}
+
+.m-5 {
+    margin: 5px !important;
+}
+
+.m-10 {
+    margin: 10px !important;
+}
+
+.m-20 {
+    margin: 20px !important;
+}
+
+.m-50 {
+    margin: 50px !important;
+}
+
+.m-100 {
+    margin: 100px !important;
+}
+
+/* Border Radius */
+.br-1 {
+    border-radius: 1px !important;
+}
+
+.br-2 {
+    border-radius: 2px !important;
+}
+
+.br-5 {
+    border-radius: 5px !important;
+}
+
+.br-10 {
+    border-radius: 10px !important;
+}
+
+.br-20 {
+    border-radius: 20px !important;
+}
+
+.br-50 {
+    border-radius: 50px !important;
+}
+
+.br-100 {
+    border-radius: 100px !important;
+}
+
+.br-max {
+    border-radius: 1000vmax !important;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px;
+}
+
+.navbar-light {
+    background: rgb(230, 230, 230);
+}
+
+.navbar-dark {
+    background: rgb(30, 30, 30);
+    color: white;
+}
+
+.navbar-center {
+    text-align: center;
+}
+
+.navbar-brand {
+    margin: 20px;
+    font-size: 28px;
+    user-select: none;
+}
+
+.navbar-content {
+    display: inline;
+}
+
+.navbar-link {
+    transition: .2s;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.navbar-link:hover {
+    color: gray;
+}
+
+.navbar-light .navbar-link {
+    color: black;
+}
+
+.navbar-dark .navbar-link {
+    color: white;
+}
+
+/* Font Stuff */
+
+/* Font Size */
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.fs-40 {
+    font-size: 40px !important;
+}
+
+/* Text Align */
+.ta-center {
+    text-align: center;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+/* Font Weight */
+.bold {
+    font-weight: bold !important;
+}
+
+.light {
+    font-weight: light !important;
+}
+
+/* Buttons */
+.btn {
+    background: white;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+
+.btn-red {
+    background: red;
+    border-color: rgb(56, 0, 0);
+    color: rgb(56, 0, 0);
+}
+
+.btn-orange {
+    background: rgb(255, 111, 0);
+    border-color: rgb(56, 24, 0);
+    color: rgb(56, 24, 0);
+}
+
+.btn-yellow {
+    background: rgb(255, 234, 0);
+    border-color: rgb(56, 48, 0);
+    color: rgb(56, 48, 0);
+}
+
+.btn-green {
+    background: rgb(85, 255, 0);
+    border-color: rgb(2, 56, 0);
+    color: rgb(2, 56, 0);
+}
+
+.btn-blue {
+    background: rgb(0, 110, 255);
+    border-color: rgb(0, 28, 56);
+    color: rgb(0, 28, 56);
+}
+
+.btn-purple {
+    background: rgb(136, 0, 255);
+    border-color: rgb(26, 0, 56);
+    color: rgb(21, 0, 56);
+}
+
+.btn-black {
+    background: rgb(17, 17, 17);
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.btn-white {
+    background: rgb(255, 255, 255);
+    border-color: rgb(79, 79, 79);
+    color: rgb(79, 79, 79);
+}
+
+.btn-gray {
+    background: rgb(255, 111, 0);
+    border-color: rgb(56, 24, 0);
+    color: rgb(56, 24, 0);
+}
+
+.btn:hover {
+    filter: brightness(125%);
+}
+
+.btn:active {
+    filter: brightness(75%);
+}
+
